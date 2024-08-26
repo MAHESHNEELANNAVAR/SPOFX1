@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "share-point-online-framework-soln-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointOnlineFrameworkSoln1/SharePointOnlineFrameworkSoln1WebPart.js",
+          "manifest": "./src/webparts/sharePointOnlineFrameworkSoln1/SharePointOnlineFrameworkSoln1WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SharePointOnlineFrameworkSoln1WebPartStrings": "lib/webparts/sharePointOnlineFrameworkSoln1/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

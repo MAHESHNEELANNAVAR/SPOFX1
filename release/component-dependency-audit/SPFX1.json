@@ -1,0 +1,8 @@
+{
+  "bundles": {
+    "share-point-online-framework-soln-1-web-part": {
+      "dependencies": [],
+      "asyncChunks": {}
+    }
+  }
+}
